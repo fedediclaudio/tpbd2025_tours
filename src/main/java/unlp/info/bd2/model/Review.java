@@ -1,9 +1,11 @@
 package unlp.info.bd2.model;
 
 
+import org.bson.types.ObjectId;
+
 public class Review {
 
-    private Long id;
+    private ObjectId id;
 
     private int rating;
 
@@ -12,11 +14,11 @@ public class Review {
     private Purchase purchase;
 
 
-    public Long getId() {
+    public ObjectId getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(ObjectId id) {
         this.id = id;
     }
 

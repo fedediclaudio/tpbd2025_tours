@@ -1,9 +1,11 @@
 package unlp.info.bd2.model;
 
 
+import org.bson.types.ObjectId;
+
 public class ItemService {
 
-    Long id;
+    ObjectId id;
 
     private int quantity;
 
@@ -11,11 +13,11 @@ public class ItemService {
 
     private Service service;
 
-    public Long getId() {
+    public ObjectId getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(ObjectId id) {
         this.id = id;
     }
 

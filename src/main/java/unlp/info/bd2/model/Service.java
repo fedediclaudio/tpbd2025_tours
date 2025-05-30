@@ -1,11 +1,13 @@
 package unlp.info.bd2.model;
 
+import org.bson.types.ObjectId;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Service {
 
-    private Long id;
+    private ObjectId id;
 
     private String name;
 
@@ -18,11 +20,11 @@ public class Service {
     private Supplier supplier;
 
 
-    public Long getId() {
+    public ObjectId getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(ObjectId id) {
         this.id = id;
     }
 

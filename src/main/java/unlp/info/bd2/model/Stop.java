@@ -1,20 +1,22 @@
 package unlp.info.bd2.model;
 
 
+import org.bson.types.ObjectId;
+
 public class Stop {
 
-    private Long id;
+    private ObjectId id;
 
     private String name;
 
     private String description;
 
 
-    public Long getId() {
+    public ObjectId getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(ObjectId id) {
         this.id = id;
     }
 

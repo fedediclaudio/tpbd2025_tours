@@ -14,4 +14,5 @@ public class AppConfig {
     public ToursService toursService() {
         return new ToursServiceImpl();
     }
+
 }

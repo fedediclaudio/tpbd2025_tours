@@ -1,12 +1,14 @@
 package unlp.info.bd2.model;
 
+import org.bson.types.ObjectId;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 public class User {
 
-    private Long id;
+    private ObjectId id;
 
     private String username;
 
@@ -25,11 +27,11 @@ public class User {
     private List<Purchase> purchaseList;
 
 
-    public Long getId() {
+    public ObjectId getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(ObjectId id) {
         this.id = id;
     }
 
